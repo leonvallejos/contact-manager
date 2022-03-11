@@ -1,12 +1,14 @@
 import React from "react";
 import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import { NavBar } from "./components/NavBar";
 
-function App() {
+let App = () => {
   return (
-    <div className="App">
-      <h1>App component</h1>
-    </div>
+    <React.Fragment>
+      <NavBar />
+    </React.Fragment>
   );
-}
+};
 
 export default App;
