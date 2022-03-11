@@ -1,7 +1,7 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import NavBar from "./components/NavBar/NavBar";
 import React from "react";
+import NavBar from "./components/NavBar/NavBar";
 
 let App = () => {
   return (
@@ -9,7 +9,7 @@ let App = () => {
       <NavBar />
       <Routes>
         <Route path="/" element={<h1>Home</h1>} />
-        <Route path="/contacts/list" />
+        <Route path="/contacts/list" element={<NavBar/>}/>
       </Routes>
     </React.Fragment>
   );
