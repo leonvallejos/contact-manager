@@ -3,7 +3,7 @@ import React from "react";
 let ContactList = () => {
   return (
     <React.Fragment>
-      <H2>ContactList component</H2>
+      <h1>ContactList component</h1>
     </React.Fragment>
   );
 };
