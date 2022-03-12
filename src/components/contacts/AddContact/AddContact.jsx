@@ -3,7 +3,7 @@ import React from "react";
 let AddContact = () => {
   return (
     <React.Fragment>
-      <H2>AddContact component</H2>
+      <h2>AddContact component</h2>
     </React.Fragment>
   );
 };
