@@ -3,7 +3,7 @@ import React from "react";
 let ViewContact = () => {
   return (
     <React.Fragment>
-      <H2>ViewContact component</H2>
+      <h2>ViewContact component</h2>
     </React.Fragment>
   );
 };
