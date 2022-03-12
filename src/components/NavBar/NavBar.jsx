@@ -1,11 +1,13 @@
-import {Link, link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 let NavBar = () => {
     return (
         <>
             <nav className="navbar navbar-dark bg-dark navbar-expand-sm shadow">
                 <div className="container">
-                    <Link to={'/'} className="navbar-brand">Contact Manager</Link>
+                    <Link to={'/'} className="navbar-brand">
+                        <i className="fa fa-mobile text-warning"/> Contact <span className="text-warning">Manager</span>
+                    </Link>
                 </div>
             </nav>
         </>
