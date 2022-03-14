@@ -9,7 +9,7 @@ let ContactList = () => {
                     <div className="grid">
                         <div className="row">
                             <div className="col">
-                                <p className="h3">Contact Manager
+                                <p className="h3 fw-bold">Contact Manager
                                     <Link to={'/contacts/add'} className="btn btn-primary ms-2">
                                         <i className="fa fa-plus-circle me-2"/>
                                         New</Link>
@@ -45,7 +45,7 @@ let ContactList = () => {
                         <div className="col-md-6">
                             <div className="card">
                                 <div className="card-body">
-                                   <div className="row">
+                                   <div className="row align-items-center d-flex justify-content-around">
                                        <div className="col-md-4">
                                            <img src="http://assets.stickpng.com/images/585e4bcdcb11b227491c3396.png" alt="user-icon" className="img-fluid contact-img"/>
                                        </div>
@@ -62,14 +62,14 @@ let ContactList = () => {
                                                </li>
                                            </ul>
                                        </div>
-                                       <div className="col-md-1">
-                                            <Link to={'/contacts/view/:contactId'} className="btn btn-warning">
+                                       <div className="col-md-1 d-flex flex-column align-items-center">
+                                            <Link to={'/contacts/view/:contactId'} className="btn btn-warning my-1">
                                                 <i className="fa fa-eye"/>
                                             </Link>
-                                           <Link to={'/contacts/edit/:contactId'} className="btn btn-primary">
+                                           <Link to={'/contacts/edit/:contactId'} className="btn btn-primary my-1">
                                                <i className="fa fa-pen"/>
                                            </Link>
-                                           <button className="btn btn-danger">
+                                           <button className="btn btn-danger my-1">
                                                <i className="fa fa-trash"/>
                                            </button>
                                        </div>
