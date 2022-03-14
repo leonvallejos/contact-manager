@@ -45,19 +45,35 @@ let ContactList = () => {
                         <div className="col-md-6">
                             <div className="card">
                                 <div className="card-body">
-                                    <div className="col-md-4">
-                                            <img src="http://assets.stickpng.com/images/585e4bcdcb11b227491c3396.png" alt="user-icon" className="img-fluid contact-img"/>
-                                    </div>
-                                    <div className="col-md-7">
-                                        <ul className="list-group">
-                                            <li className="list-group-item list-group-item-action">
-                                                Name: <span className="fw-bold">John Doe</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div className="col-md-1">
-
-                                    </div>
+                                   <div className="row">
+                                       <div className="col-md-4">
+                                           <img src="http://assets.stickpng.com/images/585e4bcdcb11b227491c3396.png" alt="user-icon" className="img-fluid contact-img"/>
+                                       </div>
+                                       <div className="col-md-7">
+                                           <ul className="list-group">
+                                               <li className="list-group-item list-group-item-action">
+                                                   Name: <span className="fw-bold">John Doe</span>
+                                               </li>
+                                               <li className="list-group-item list-group-item-action">
+                                                   Mobile: <span className="fw-bold">42893017</span>
+                                               </li>
+                                               <li className="list-group-item list-group-item-action">
+                                                   Email: <span className="fw-bold">dev.leonvallejos@gmail.com</span>
+                                               </li>
+                                           </ul>
+                                       </div>
+                                       <div className="col-md-1">
+                                            <Link to={'/contacts/view/:contactId'} className="btn btn-warning">
+                                                <i className="fa fa-eye"/>
+                                            </Link>
+                                           <Link to={'/contacts/edit/:contactId'} className="btn btn-primary">
+                                               <i className="fa fa-pen"/>
+                                           </Link>
+                                           <button className="btn btn-danger">
+                                               <i className="fa fa-trash"/>
+                                           </button>
+                                       </div>
+                                   </div>
                                 </div>
                             </div>
                         </div>
