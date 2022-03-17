@@ -47,7 +47,7 @@ let ContactList = () => {
                                 <div className="card-body">
                                    <div className="row align-items-center d-flex justify-content-around">
                                        <div className="col-md-4">
-                                           <img src="http://assets.stickpng.com/images/585e4bcdcb11b227491c3396.png" alt="user-icon" className="img-fluid contact-img"/>
+                                           <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="user-icon" className="img-fluid contact-img"/>
                                        </div>
                                        <div className="col-md-7">
                                            <ul className="list-group">
